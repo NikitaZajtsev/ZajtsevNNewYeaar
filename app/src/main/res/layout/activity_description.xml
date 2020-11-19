@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPlum"
+    tools:context=".DescriptionActivity">
+
+    <Button
+        android:id="@+id/buttonMaintwo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/main"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewSani"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMaintwo"
+        app:srcCompat="@drawable/sani" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMaintwo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="КУОК — молодой рэпер из Чехии, который постепенно набирает популярность. Артист также известен в сети как QUOK. Он является состоявшимся исполнителем, обладающим собственным стилем и подачей. В 2020 году парень выпустил новый альбом.Настоящее имя и фамилия рэпера QUOK — Владимир Птица. Родился КУОК 22 апреля. Родной город артиста неизвестен. Когда ему было 10 лет, семья переехала жить в Прагу. Там, Вова пошел учиться в американскую школу, и сделал акцент на музыке. Такой выбор учебного заведения связан с нежеланием учиться в чешской школе, а с русской у парня не сложилось.  Страсть к музыке Вова унаследовал от родителей. Когда он был совсем маленьким, старший брат начал сбрасывать ему песни. Родители в свою очередь постоянно слушали дома и в машине джаз. Все это пробудило у Вовы страсть к музыкальному творчеству. Творческий псевдоним КУОК (QUOK) закрепился за парнем еще со школы. Тогда, под этим ником он играл в Minecraft. Ник приклеился и он решил его не менять. Музыкальная биография КУОК-а началась с электронной музыкой. Стоит сказать, что он и сейчас увлекается ей. Но QUOK быстро понял, что рэп, является куда более перспективным направлением. Хотя Вова и признается, что в рэпе ритм жизни намного быстрее, чем в электронной музыке. Все свои треки Птица пишет ориентируясь на свои чувства в определенный момент. В стихи он пытается вложить смысл и передать свои переживания. В 2013 году QUOK начал активно врываться в рэп. Тогда он выпустил три дебютных трека, которые не получили желаемого успеха. В 2015 году КУОК представил свой дебютный альбом “Imaginary Places”. В пластинку вошло 10 треков. 2016 год для артиста выдался довольно активным. QUOK выпустил около 20 треков, несколько из которых были удостоены отдельным вниманием. В 2019 году карьера молодого рэпера из Чехии пошла в гору. КУОК выпустил трек “Будка”, который стал хитом. Сама композиция была записана за пару часов. А клип на песню сняли за 4 дня. В том же году был выпущен альбом “DECADANCE 2”. Вошло в него 14 композиций. В 2020 году КУОК представил публике альбом “DECADANCE 3”. Пластинка состоит из 24 треков. Буквально за неделю альбом был прослушал больше полумиллиона раз. Такой успех вывел исполнителя на новый уровень. Особого внимания заслуживают песни “Пушка”, “Париж” и “Вверх дном”. Все биты к трекам, QUOK написал сам." />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

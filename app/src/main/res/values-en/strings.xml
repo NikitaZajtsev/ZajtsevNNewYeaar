@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice №5-6 Zajtsev</string>
+    <string name="qq">QUOQ</string>
+    <string name="photo">Photos from the concert</string>
+    <string name="biog">Biography QUOQ</string>
+    <string name="trap">What is this page ?</string>
+    <string name="main">Main page</string>
+    <string name="last_name">Zajtsev Nikita</string>
+</resources>

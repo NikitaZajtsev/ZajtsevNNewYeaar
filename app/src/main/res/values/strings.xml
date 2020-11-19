@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Практика№5-6 Зайцев</string>
+    <string name="last_name">Зайцев Никита</string>
+    <string name="qq">Куок</string>
+    <string name="photo">Фотографии с концерта</string>
+    <string name="biog">Биография Куока</string>
+    <string name="trap">А что это за страница ?</string>
+    <string name="main">Главная страница</string>
+    <string name="textTrap" translatable="false">Trap!</string>
+    <string name="todo1" translatable="false">TODO</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="todoo" translatable="false">TODO</string>
+
+
+</resources>
